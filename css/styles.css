@@ -1,0 +1,82 @@
+
+body{
+    background-color:forestgreen
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styles */
+
+
+.logo{
+    padding-left: 25px;
+    width: 30%;
+
+}
+
+.main-nav{
+    width: 70%;
+
+}
+.text{
+    color: violet;
+}
+
+
+.dashed-border{
+    border: 2px dashed darkblue;
+}
+
+.column-container {
+    display: flex;
+}
+
+.column {
+    width: 40%;
+}
+
+#moralis-reference{
+    text-shadow: 4px 4px 7px darkgoldenrod;
+}
+
+button{
+    border: none;
+    box-shadow: 3px 3px 7px rgb(17, 233, 6);
+    cursor: pointer;
+}
+
+form{
+    border: 2px solid black;
+    padding: 15px;
+    margin: 30px;
+}
+
+[type=text], [type=number], [type=password], [type=submit] {
+    padding: 8px;
+}
+
+@media screen and (min-width: 400px) {
+    .header-container{
+        display: flex;
+    
+    }
+
+    .menu-list{
+        list-style-type: none;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 30px;
+    }
+    
+    .menu-item{
+        margin: 20px;
+        font-size: 16px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
